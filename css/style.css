@@ -41,7 +41,7 @@ h1#userName {
 
 .headerLine {
 	width: 100%;
-	size: 5px;
+	height: 1px;
 	background-color: #7d97ad;
 }
 
