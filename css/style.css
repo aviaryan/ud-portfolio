@@ -106,7 +106,7 @@ footer {
 	}
 }
 
-@media all and (max-width: 780px) {
+@media all and (max-width: 800px) {
 	.project {
 		/* becomes double */
 		width: 45%;
@@ -121,6 +121,6 @@ footer {
 
 	.project {
 		/* becomes single */
-		width: 80%;
+		width: 90%;
 	}
 }
