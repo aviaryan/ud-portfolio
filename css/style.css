@@ -2,11 +2,12 @@
 body {
 	display: flex;
 	flex-direction: column;
-	max-width: 1100px;
-	justify-content: flex-end;
+	max-width: 1050px;
+	min-width: 200px;
 	margin-top: 48px;
-	margin-right: 64px;
 	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 32px;
 
 	font-family: 'Raleway', 'Times New Roman', sans-serif;
 }
@@ -20,6 +21,10 @@ header {
 header img {
 	max-width: 112px;
 	max-height: 112px;
+}
+
+#heading {
+	align-self: flex-end;
 }
 
 #userName {
@@ -49,7 +54,7 @@ header img {
 	font-weight: 100;
 }
 
-.projects {
+.container {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -57,7 +62,8 @@ header img {
 
 .project {
 	margin-top: 32px;
-	width: 30%;
+	width: 31%;
+	min-width: 250px;
 	flex-basis: 1;
 	border: 1px solid;
 	border-color: #7d97ad;
@@ -88,4 +94,33 @@ a.projectLink {
 footer {
 	margin-top: 64px;
 	color: #2d3c49;
+}
+
+
+/* Media Queries */
+
+@media all and (max-width: 1100px) {
+	body {
+		margin-left: 24px;
+		margin-right: 24px;
+	}
+}
+
+@media all and (max-width: 780px) {
+	.project {
+		/* becomes double */
+		width: 45%;
+		min-width: 200px;
+	}
+}
+
+@media all and (max-width: 450px) {
+	#userName {
+		font-size: 2.5em;
+	}
+
+	.project {
+		/* becomes single */
+		width: 80%;
+	}
 }
