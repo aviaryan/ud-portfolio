@@ -4,9 +4,11 @@ body {
 	flex-direction: column;
 	max-width: 1100px;
 	justify-content: flex-end;
-	margin-top: 32px;
-	margin-right: 32px;
+	margin-top: 48px;
+	margin-right: 64px;
 	margin-left: auto;
+
+	font-family: 'Raleway', 'Times New Roman', sans-serif;
 }
 
 header {
@@ -16,12 +18,13 @@ header {
 }
 
 header img {
-	max-width: 104px;
-	max-height: 104px;
+	max-width: 112px;
+	max-height: 112px;
 }
 
 #userName {
 	font-size: 4rem;
+	color: #2d3c49;
 }
 
 #userTagline {
@@ -32,4 +35,57 @@ header img {
 .header_line {
 	width: 100%;
 	size: 5px;
+	background-color: #7d97ad;
+}
+
+#bigImg img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#projectLabel {
+	margin-top: 48px;
+	font-size: 3rem;
+	font-weight: 100;
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.project {
+	margin-top: 32px;
+	width: 30%;
+	flex-basis: 1;
+	border: 1px solid;
+	border-color: #7d97ad;
+	z-index: 2;
+}
+
+.bannerImage img {
+	width: 100%;
+}
+
+.projectText {
+	padding: 1em 1em 1em 1em;
+}
+
+.projectTitle {
+	font-size: 1.5em;
+}
+
+a.projectLink {
+	font-size: 0.6em;
+	text-decoration: none;
+}
+
+.projectDesc {
+	margin-top: 0.7em;
+}
+
+footer {
+	margin-top: 64px;
+	color: #2d3c49;
 }
