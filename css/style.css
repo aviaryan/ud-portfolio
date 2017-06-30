@@ -50,8 +50,8 @@ h1#userName {
 	max-width: 100%;
 }
 
-#projectLabel {
-	margin-top: 48px;
+h2#projectLabel {
+	margin: 48px 0 0 0;
 	font-size: 3rem;
 	font-weight: 100;
 }
