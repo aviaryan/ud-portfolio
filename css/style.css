@@ -27,8 +27,10 @@ header img {
 	align-self: flex-end;
 }
 
-#userName {
+h1#userName {
 	font-size: 4rem;
+	font-weight: normal;
+	margin: 0 0 0 0;
 	color: #2d3c49;
 }
 
@@ -37,7 +39,7 @@ header img {
 	font-size: 1.2rem;
 }
 
-.header_line {
+.headerLine {
 	width: 100%;
 	size: 5px;
 	background-color: #7d97ad;
@@ -115,7 +117,7 @@ footer {
 }
 
 @media all and (max-width: 450px) {
-	#userName {
+	h1#userName {
 		font-size: 2.5em;
 	}
 
